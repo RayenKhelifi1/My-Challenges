@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700&family=Inter:wght@200;600&family=Montserrat:wght@500&family=Signika+Negative:wght@300;400;600&display=swap');
+*{
+   margin: 0;
+   padding: 0;
+ }
+body{
+   height: 100vh;
+   width: 100%;
+ }
+.container{
+   background-color: hsl(233, 47%, 7%);
+   height: 100%;
+   width: 100%;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+ }
+.main{
+   display: flex;
+   flex-direction: row-reverse;
+   align-items: center;
+   justify-content: center;
+   height: 480px;
+   width:1300px;
+   background-color: hsl(244, 38%, 16%);
+   border-radius: 10px;
+ }
+.imm{
+   height: 100%;
+   width: 100%;
+   background: linear-gradient(rgba(101, 7, 152, 0.504),#500a6c91),url(images/image-header-desktop.jpg);
+   background-size: cover;
+   background-position: center;
+   border-radius: 0px 10px 10px 0px;
+ }
+ .text-main{
+  padding: 10px;
+  margin: 0px 40px;
+ }
+ .text1{
+  height: 220px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Inter', sans-serif;
+ }
+ .text1 h1{
+  color: aliceblue;
+  width: 600px;
+  padding: 10px;
+  margin: 10px;
+  font-size: 50px;
+  text-align: start;
+ }
+ .text1 h1 span{
+  color: blueviolet;
+ }
+ .text1 .para{
+  text-align: start;
+  color: white;
+  width: 100%;
+  line-height: 30px;
+  word-spacing: 2px;
+  margin-top: 5px;
+  margin-bottom: 30px;
+  margin-left: 50px;
+  margin-right: 20px;
+ }
+ .text2{
+  display: flex;
+  justify-content: space-around;
+  font-family: 'Inter', sans-serif;
+  color: aliceblue;
+  font-size: 18px;
+  height: 100%;
+  position: relative;
+  top: 60px;
+ }
+ .pp{
+  color: gray;
+  text-transform: uppercase;
+  font-size: 15px;
+  margin-top: 8px;
+ }
